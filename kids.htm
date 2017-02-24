@@ -1,0 +1,305 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Our Kids</title>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!--navigation-->
+
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <!--<div class="navbar-header">
+                        <a class="navbar-brand" href="index.htm">TheChikulaevs</a>
+                    </div>-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.htm">Home</a></li>
+                        <li class="active"><a href="kids.htm">Kids</a></li>
+                        <li><a href="hobby.htm">Hobby</a></li>
+                        <li><a href="hiking.htm">Hiking</a></li>
+                        <li><a href="contact.htm">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="registration.htm"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li class="dropdown">
+                            <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login <b class="caret"></b></a>
+                            <ul class="dropdown-menu" style="padding: 15px; min-width: 250px; background-color: #3a4c44;">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Remember me
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-success btn-block">Sign in</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <input class="btn btn-primary btn-block" type="button" id="sign-in-facebook" value="Sign In with Facebook">
+                                    <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+                                </li>
+                            </ul>
+
+
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>My Kids, My Passion!</h1>
+
+
+                <hr />
+
+
+                <div class="two hidden-sm hidden-xs">
+                    <p class="text-justify">
+                        I enjoy many things in life, but what I really enjoy the most is spending time with my family. I have two wonderful girls and they are the most important part of my life. While observing my daughters learning life, I felt strong need to preserve the most precious moments. Because of that photography appeared in my life. Through lens of my camera I can tell a new story every day.
+                        With help of Photoshop I love to make my pictures look even more magical. And my digital drawing tablet allows me to creatively manipulate photos and explore the artist in myself. For me photography is a opportunity to express my creativity needs.
+                        One of my dreams is to make a custom illustrated children book which would combine my children pictures and illustrations in a beautiful and instructive story.
+
+                    </p>
+                </div>
+                <div class="hidden-lg hidden-md">
+                    <p class="text-justify">
+                        I enjoy many things in life, but what I really enjoy the most is spending time with my family. I have two wonderful girls and they are the most important part of my life. While observing my daughters learning life, I felt strong need to preserve the most precious moments. Because of that photography appeared in my life. Through lens of my camera I can tell a new story every day.
+                        With help of Photoshop I love to make my pictures look even more magical. And my digital drawing tablet allows me to creatively manipulate photos and explore the artist in myself. For me photography is a opportunity to express my creativity needs.
+                        One of my dreams is to make a custom illustrated children book which would combine my children pictures and illustrations in a beautiful and instructive story.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--kids gallery-->
+
+        <div id="main_area">
+            <!-- Slider -->
+            <div class="row">
+                <div class="col-sm-6" id="slider-thumbs">
+                    <!-- Bottom switcher of slider -->
+                    <ul class="hide-bullets">
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-0">
+                                <img src="./images/kids/thumbnail/0.jpg">
+                            </a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-1"><img src="./images/kids/thumbnail/1.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-2"><img src="./images/kids/thumbnail/2.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-3"><img src="./images/kids/thumbnail/3.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-4"><img src="./images/kids/thumbnail/4.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-5"><img src="./images/kids/thumbnail/5.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-6"><img src="./images/kids/thumbnail/6.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-7"><img src="./images/kids/thumbnail/7.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-8"><img src="./images/kids/thumbnail/8.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-9"><img src="./images/kids/thumbnail/9.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-10"><img src="./images/kids/thumbnail/10.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-11"><img src="./images/kids/thumbnail/11.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-12"><img src="./images/kids/thumbnail/12.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-13"><img src="./images/kids/thumbnail/13.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-14"><img src="./images/kids/thumbnail/14.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-15"><img src="./images/kids/thumbnail/15.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-16"><img src="./images/kids/thumbnail/16.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-17"><img src="./images/kids/thumbnail/17.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-18"><img src="./images/kids/thumbnail/18.jpg"></a>
+                        </li>
+                        <li class="col-sm-3">
+                            <a class="thumbnail" id="carousel-selector-19"><img src="./images/kids/thumbnail/19.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-xs-12" id="slider">
+                        <!-- Top part of the slider -->
+                        <div class="row">
+                            <div class="col-sm-12" id="carousel-bounding-box">
+                                <div class="carousel slide" id="myCarousel">
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        <div class="active item" data-slide-number="0">
+                                            <img src="./images/kids/0.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="1">
+                                            <img src="./images/kids/1.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="2">
+                                            <img src="./images/kids/2.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="3">
+                                            <img src="./images/kids/3.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="4">
+                                            <img src="./images/kids/4.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="5">
+                                            <img src="./images/kids/5.jpg">
+                                        </div>
+
+                                        <div class="item" data-slide-number="6">
+                                            <img src="./images/kids/6.jpg">
+                                        </div>
+
+                                        <div class="item" data-slide-number="7">
+                                            <img src="./images/kids/7.jpg">
+                                        </div>
+
+                                        <div class="item" data-slide-number="8">
+                                            <img src="./images/kids/8.jpg">
+                                        </div>
+
+                                        <div class="item" data-slide-number="9">
+                                            <img src="./images/kids/9.jpg">
+                                        </div>
+
+                                        <div class="item" data-slide-number="10">
+                                            <img src="./images/kids/10.jpg">
+                                        </div>
+
+                                        <div class="item" data-slide-number="11">
+                                            <img src="./images/kids/11.jpg">
+                                        </div>
+
+                                        <div class="item" data-slide-number="12">
+                                            <img src="./images/kids/12.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="13">
+                                            <img src="./images/kids/13.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="14">
+                                            <img src="./images/kids/14.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="15">
+                                            <img src="./images/kids/15.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="16">
+                                            <img src="./images/kids/16.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="17">
+                                            <img src="./images/kids/17.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="18">
+                                            <img src="./images/kids/18.jpg">
+                                        </div>
+                                        <div class="item" data-slide-number="19">
+                                            <img src="./images/kids/19.jpg">
+                                        </div>
+                                    </div>
+                                    <!-- Carousel nav -->
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Slider-->
+            </div>
+
+
+
+        </div> <!--gallery-->
+        <!--footer-->
+
+        <div class="row">
+            <footer class="footer-basic-centered">
+                <p class="footer-company-motto">TheChikulaevs</p>
+                <p class="footer-links">
+                    <a href="index.htm">Home</a>
+                    ·
+                    <a href="kids.htm">Kids</a>
+                    ·
+                    <a href="hobby.htm">Hobby</a>
+                    ·
+                    <a href="hiking.htm">Hiking</a>
+                    ·
+                    <a href="contact.htm">Contact</a>
+
+                </p>
+
+                <p class="footer-company-name">Iuliia Chikulaeva &copy; 2017</p>
+            </footer>
+        </div>
+
+    </div> <!--container-->
+    <!-- Javascript Login-->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

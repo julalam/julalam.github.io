@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Hobby</title>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+    <!--navigation-->
+
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <!--<div class="navbar-header">
+                        <a class="navbar-brand" href="index.htm">TheChikulaevs</a>
+                    </div>-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.htm">Home</a></li>
+                        <li><a href="kids.htm">Kids</a></li>
+                        <li class="active"><a href="hobby.htm">Hobby</a></li>
+                        <li><a href="hiking.htm">Hiking</a></li>
+                        <li><a href="contact.htm">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="registration.htm"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li class="dropdown">
+                            <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login <b class="caret"></b></a>
+                            <ul class="dropdown-menu" style="padding: 15px; min-width: 250px; background-color: #3a4c44;">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox"> Remember me
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-success btn-block">Sign in</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <input class="btn btn-primary btn-block" type="button" id="sign-in-facebook" value="Sign In with Facebook">
+                                    <input class="btn btn-primary btn-block" type="button" id="sign-in-google" value="Sign In with Google">
+                                </li>
+                            </ul>
+
+
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>My Life in Stitches</h1>
+
+                <hr />
+
+                <div class="two hidden-sm hidden-xs">
+                    <p class="text-justify">
+                        Cross stitching is one of my favorite hobbies along with photography. I have been cross stitching since I was nine and the amount of completed pieces is hard to count.
+                        Cross stitching is a very concentrative heavy task but it is also very relaxing. Counted cross stitches require a huge amount of organizational skills. Doing large projects that takes from several months to years, I learned how to get organized and be patient. Despite of all complexity, nicety and long duration of working process, it is a good rest for me. It’s always exciting to make first stitch and see how bit by bit a new beautiful embroidery appears.
+                        Completed pieces I always frame and decorate my walls with them or give to my friends or donate to charity auctions.
+                    </p>
+                </div>
+                <div class="hidden-md hidden-lg">
+                    <p class="text-justify">
+                        Cross stitching is one of my favorite hobbies along with photography. I have been cross stitching since I was nine and the amount of completed pieces is hard to count.
+                        Cross stitching is a very concentrative heavy task but it is also very relaxing. Counted cross stitches require a huge amount of organizational skills. Doing large projects that takes from several months to years, I learned how to get organized and be patient. Despite of all complexity, nicety and long duration of working process, it is a good rest for me. It’s always exciting to make first stitch and see how bit by bit a new beautiful embroidery appears.
+                        Completed pieces I always frame and decorate my walls with them or give to my friends or donate to charity auctions.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--hobby gallery-->
+        <div id="main_area">
+            <!-- Slider -->
+            <div class="row">
+                <div class="col-xs-12" id="slider">
+                    <!-- Top part of the slider -->
+                    <div class="row">
+                        <div class="col-sm-8" id="carousel-bounding-box">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                        <img src="./images/hobby/1.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="1">
+                                        <img src="./images/hobby/2.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="2">
+                                        <img src="./images/hobby/3.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="3">
+                                        <img src="./images/hobby/4.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="4">
+                                        <img src="./images/hobby/5.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="5">
+                                        <img src="./images/hobby/6.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="6">
+                                        <img src="./images/hobby/7.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="7">
+                                        <img src="./images/hobby/8.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="8">
+                                        <img src="./images/hobby/9.jpg">
+                                    </div>
+                                    <div class="item" data-slide-number="9">
+                                        <img src="./images/hobby/10.jpg">
+                                    </div>
+
+                                </div><!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" id="carousel-text"></div>
+                        <div id="slide-content" style="display: none;">
+                            <div id="slide-content-0">
+                                <h2>Snowman Gathering Stocking</h2>
+                                <p>Work in progress...</p>
+                                <p class="sub-text"><a href="https://www.amazon.com/Dimensions-Counted-Collection-Gathering-Stocking/dp/B007IQTZGO/ref=sr_1_1?ie=UTF8&qid=1487473416&sr=8-1&keywords=gold+collection+cross+stitch" target="_blank">Find on Amazon</a></p>
+                            </div>
+                            <div id="slide-content-1">
+                                <h2>A Row Of Love</h2>
+                                <!--<p>Complited </p>-->
+                                <p class="sub-text"><a href="https://www.amazon.com/Dimensions-Needlecrafts-Counted-Cross-Stitch/dp/B0001DU2YA/ref=sr_1_1?ie=UTF8&qid=1487473731&sr=8-1&keywords=cross+stitch+row+of+love" target="_blank">Find on Amazon</a></p>
+                            </div>
+                            <div id="slide-content-2">
+                                <h2>Baby Drawers Birth Record</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <p class="sub-text"><a href="https://www.amazon.com/Dimensions-Needlecrafts-Counted-Stitch-Drawers/dp/B0030OM0OW/ref=sr_1_10?ie=UTF8&qid=1487473658&sr=8-10&keywords=cross+stitch+birth+record" target="_blank">Find on Amazon</a></p>
+                            </div>
+                            <div id="slide-content-3">
+                                <h2>Zoo Alphabet Birth Record</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <p class="sub-text"><a href="https://www.amazon.com/Dimensions-Needlecrafts-Counted-Stitch-Alphabet/dp/B001RAFWG4/ref=sr_1_8?ie=UTF8&qid=1487473658&sr=8-8&keywords=cross+stitch+birth+record" target="_blank">Find on Amazon</a></p>
+                            </div>
+                            <div id="slide-content-4">
+                                <h2>Sphynx</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <!--<p class="sub-text"><a href="#">Read more</a></p>-->
+                            </div>
+                            <div id="slide-content-5">
+                                <h2>The Samurai</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <p class="sub-text"><a href="https://www.amazon.com/Dimensions-Needlecrafts-Counted-Cross-Stitch/dp/B00114M3CC/ref=sr_1_2?ie=UTF8&qid=1487473431&sr=8-2&keywords=gold%2Bcollection%2Bcross%2Bstitch%2Bgeisha&th=1" target="_blank">Find on Amazon</a></p>
+                            </div>
+                            <div id="slide-content-6">
+                                <h2>Elegant Geisha</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <p class="sub-text"><a href="https://www.amazon.com/Dimensions-Needlecrafts-Counted-Cross-Stitch/dp/B000A86F0Q/ref=sr_1_2?ie=UTF8&qid=1487473431&sr=8-2&keywords=gold%2Bcollection%2Bcross%2Bstitch%2Bgeisha&th=1" target="_blank">Find on Amazon</a></p>
+                            </div>
+                            <div id="slide-content-7">
+                                <h2>Mai</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <p class="sub-text"><a href="https://www.amazon.com/Dimensions-Needlecrafts-Counted-Cross-Stitch/dp/B001141CVU/ref=sr_1_2?ie=UTF8&qid=1487473431&sr=8-2&keywords=gold+collection+cross+stitch+geisha" target="_blank">Find on Amazon</a></p>
+                            </div>
+                            <div id="slide-content-8">
+                                <h2>Naomi</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <!--<p class="sub-text"><a href="3">Find on Amazon</a></p>-->
+                            </div>
+                            <div id="slide-content-9">
+                                <h2>Saint-Petersburg</h2>
+                                <!--<p>Lorem Ipsum Dolor</p>-->
+                                <!--<p class="sub-text"><a href="3">Find on Amazon</a></p>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/Slider-->
+            <div class="row hidden-xs" id="slider-thumbs">
+                <!-- Bottom switcher of slider -->
+                <ul class="hide-bullets">
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-0"><img src="./images/hobby/thumbnail/1.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-1"><img src="./images/hobby/thumbnail/2.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-2"><img src="./images/hobby/thumbnail/3.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-3"><img src="./images/hobby/thumbnail/4.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-4"><img src="./images/hobby/thumbnail/5.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-5"><img src="./images/hobby/thumbnail/6.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-6"><img src="./images/hobby/thumbnail/7.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-7"><img src="./images/hobby/thumbnail/8.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-8"><img src="./images/hobby/thumbnail/9.jpg"></a>
+                    </li>
+                    <li class="col-sm-2">
+                        <a class="thumbnail" id="carousel-selector-9"><img src="./images/hobby/thumbnail/10.jpg"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--footer-->
+
+        <div class="row">
+            <footer class="footer-basic-centered">
+                <p class="footer-company-motto">TheChikulaevs</p>
+                <p class="footer-links">
+                    <a href="index.htm">Home</a>
+                    ·
+                    <a href="kids.htm">Kids</a>
+                    ·
+                    <a href="hobby.htm">Hobby</a>
+                    ·
+                    <a href="hiking.htm">Hiking</a>
+                    ·
+                    <a href="contact.htm">Contact</a>
+
+                </p>
+
+                <p class="footer-company-name">Iuliia Chikulaeva &copy; 2017</p>
+            </footer>
+        </div>
+
+    </div> <!--container-->
+    <!-- Javascript Login-->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
